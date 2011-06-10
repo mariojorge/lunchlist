@@ -4,6 +4,7 @@ public class Restaurant {
 	private String name="";
 	private String address="";
 	private String type="";
+	private String notes="";
 	
 	public void setName(String name) {
 		this.name = name;
@@ -31,6 +32,14 @@ public class Restaurant {
 	
 	public String toString() {
 		return(getName());
+	}
+
+	public void setNotes(String notes) {
+		this.notes = notes;
+	}
+
+	public String getNotes() {
+		return notes;
 	}
 		
 }
